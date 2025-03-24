@@ -30,10 +30,7 @@ docker run -e SIMPLEX_API_KEY=your_api_key_here simplex-playwright
 ```
 
 ## Security Notes
-
-- Never commit your `.env` file to version control
-- Add `.env` to your `.gitignore` file
-- For production environments, consider using Docker secrets or a secure key management system
+- The `.env` file is already in the `.gitignore` file.
 
 ## Files
 
